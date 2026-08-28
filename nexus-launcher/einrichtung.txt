@@ -1,0 +1,32 @@
+NEXUS LAUNCHER - EINRICHTUNG ANLEITUNG
+
+Entra App: xusClient
+Client ID: 21737e37-48e2-4792-a681-72a6104b6dc7
+Redirect:  http://localhost   PLUS zusätzlich http://localhost:17890
+
+1. Entra ID (wichtig für Auto-Login):
+   portal.azure.com -> Entra ID -> App registrations -> xusClient
+   Authentication:
+   - Redirect URIs (Mobile+Desktop / Public client):
+       http://localhost
+       http://localhost:17890
+   - Allow public client flows = Yes
+   KEIN Client Secret.
+
+2. Launcher-Konto (nicht Microsoft):
+   Beim ersten Start registrieren.
+   Der erste User wird Admin.
+   Das Launcher-Passwort ist NICHT das Microsoft-Passwort.
+
+3. Minecraft starten:
+   npm install && npm run dev
+   Play -> Mit Microsoft anmelden (Browser)
+   Dann Play auf Vanilla-Instance (z.B. Survival World 1.20.4)
+   Erster Start lädt Client + Libraries + Assets (einmalig, mehrere Minuten).
+   Java 17 oder 21 muss installiert sein (Settings -> Temurin 21 laden).
+
+4. Fabric/Forge:
+   Starten vorerst die gleiche Vanilla-Version.
+   Modloader-Installer folgt.
+
+5. Modrinth API: kein Key.

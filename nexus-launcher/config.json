@@ -1,0 +1,22 @@
+{
+  "clientId": "21737e37-48e2-4792-a681-72a6104b6dc7",
+  "redirectUri": "http://localhost",
+  "launcherPasswordHash": "",
+  "users": [],
+  "roles": {},
+  "theme": "Dark (NEXUS)",
+  "language": "Deutsch",
+  "ramMb": 2048,
+  "javaPath": "",
+  "minecraftPath": "%APPDATA%/.minecraft",
+  "adminPanelEnabled": true,
+  "modrinthEnabled": true,
+  "friendsChatEnabled": true,
+  "autoUpdaterEnabled": true,
+  "announcement": "",
+  "featureFlags": {
+    "modrinth": true,
+    "friendsChat": true,
+    "autoUpdater": true
+  }
+}
